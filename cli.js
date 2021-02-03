@@ -51,7 +51,7 @@ inquirer.prompt([
     console.log(answers)
     const spinner = ora("Downloading...");
     spinner.start();
-    download('direct:https://github.com/Anglay/animal-cli', 'test', { clone: true }, function (err) {
+    download('direct:https://github.com/Anglay/animal-cli.git#main', 'test', { clone: true }, function (err) {
         if (err) {
             spinner.fail();
             console.log(err)
