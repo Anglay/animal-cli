@@ -13,16 +13,8 @@
     "cli",
     "脚手架"
   ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Anglay/animal-cli.git"
-  },
-  "author": "Anglay",
+  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Anglay/animal-cli/issues"
-  },
-  "homepage": "https://github.com/Anglay/animal-cli#readme",
   "dependencies": {
     "chalk": "^4.1.0",
     "download-git-repo": "^3.0.2",
