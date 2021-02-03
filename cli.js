@@ -51,10 +51,10 @@ inquirer.prompt([
     console.log(answers)
     const spinner = ora("Downloading...");
     spinner.start();
-    download('direct:https://github.com/Anglay/animal-cli', 'test', { clone: true }, function (err) {
+    download('direct:https://github.com/472756921/Brts-ts', 'test', { clone: true }, function (err) {
         if (err) {
             spinner.fail();
-            console.log(chalk.red(`Generation failed. ${err}`))
+            console.log(err)
         } else {
             spinner.succeed();
         }

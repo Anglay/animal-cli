@@ -2,6 +2,7 @@
   "name": "animal-cli",
   "version": "1.0.0",
   "description": "工程脚手架",
+  "main": "cli.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
