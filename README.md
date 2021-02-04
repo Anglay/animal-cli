@@ -1,5 +1,7 @@
 ## animal-cli
-
+```
+npm install animal-cli -g
+```
 animal-cli是一个通用脚手架工程，用户可以添加自己维护的工程模板，用于初始化项目。脚手架以下命令行操作：
 
 ## 1、anim add
